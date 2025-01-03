@@ -1,0 +1,13 @@
+:root {
+  --dark-gray: #222;
+  --med-gray: #333;
+  --light-gray: #555;
+  --text-white: #999;
+}
+
+* {
+  background-color: var(--dark-gray);
+  color: var(--text-white);
+  text-decoration: none;
+}
+
