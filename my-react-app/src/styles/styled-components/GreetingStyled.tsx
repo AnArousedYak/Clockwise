@@ -5,7 +5,7 @@ const GreetingStyled = styled('h1')`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50vh;
+  margin-top: 25vh;
   font-size: 2rem;
   color: var(--textwhite);
 `;

@@ -1,21 +1,18 @@
-//import LoginStyled from ''
+import React from 'react';
+import { FormStyled, LabelStyled, InputStyled, ButtonStyled } from '../styles/styled-components/LoginStyled'; // Import styled components
 
 const Login = () => {
-    return(
-        <>
-        <form>
+  return (
+    <FormStyled>
+      <LabelStyled htmlFor="Username">Username:</LabelStyled>
+      <InputStyled type="text" id="Username" name="Username" required />
 
-            <label htmlFor="Username">Username:</label>
-            <input type="text" id="Username" name="Username" required />
+      <LabelStyled htmlFor="Password">Password:</LabelStyled>
+      <InputStyled type="password" id="Password" name="Password" required />
 
-            <label htmlFor="Password">Password:</label>
-            <input type="text" id="Password" name="Password" required />  
-
-            <button type="submit">Login</button>
-
-        </form>
-        </>
-    )
+      <ButtonStyled type="submit">Login</ButtonStyled>
+    </FormStyled>
+  );
 }
 
-export default Login
+export default Login;
